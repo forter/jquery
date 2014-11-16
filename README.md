@@ -1,6 +1,8 @@
 [jQuery](http://jquery.com/) — New Wave JavaScript
 ==================================================
 
+[![Build Status](https://travis-ci.org/YotpoLtd/jquery.svg)](https://travis-ci.org/YotpoLtd/jquery)
+
 Contribution Guides
 --------------------------------------
 
