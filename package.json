@@ -49,7 +49,8 @@
     "requirejs": "2.1.14",
     "sinon": "1.10.3",
     "sizzle": "2.0.0",
-    "testswarm": "1.1.0"
+    "testswarm": "1.1.0",
+    "grunt-contrib-qunit": "0.5.2"
   },
   "scripts": {
     "build": "npm install && grunt",
