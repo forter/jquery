@@ -148,9 +148,11 @@ module.exports = function( grunt ) {
 			}
 		},
 		qunit: {
-			files: [ "index.html" ],
-			options: {
-				urls: [ "http://127.0.0.1/test" ],
+			all: {
+				options: {
+					urls: [ "http://127.0.0.1/test/index.html" ],
+					timeout: 30000
+				}
 			}
 		}
 	});
@@ -168,8 +170,7 @@ module.exports = function( grunt ) {
 
 	// Task to run tests
 	grunt.loadNpmTasks( "grunt-contrib-qunit" );
-	grunt.registerTask( "test", [ "qunit" ] );
 
 	// Default grunt
-	grunt.registerTask( "default", [ "jsonlint", "dev", "uglify", "dist:*", "compare_size" ] );
+	grunt.registerTask( "default", [ "jsonlint", "dev", "uglify", "dist:*", "compare_size", "qunit" ] );
 };
