@@ -172,5 +172,14 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( "grunt-contrib-qunit" );
 
 	// Default grunt
-	grunt.registerTask( "default", [ "jsonlint", "dev", "uglify", "dist:*", "compare_size", "qunit" ] );
+	grunt.registerTask( "default",
+		[
+			"jsonlint",
+			"dev",
+			"uglify",
+			"dist:*",
+			"compare_size",
+			"qunit"
+		]
+	);
 };
